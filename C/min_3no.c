@@ -1,10 +1,11 @@
-//WAP to Find min. from given 3 no. using nested if else.
-#include<stdio.h>
-#include<conio.h>
+// WAP to Find min. from given 3 no. using nested if else.
+
+#include<stdio.h>  //Standard input output header file.
+#include<conio.h>  //Console input output header file.
 
 void main()
 {
-	int a,b,c;
+	int a,b,c; //Declared three integer variable
 	
 	printf("Enter A: "); //Input message for A
 	scanf("%d",&a);	//User input to a
@@ -34,7 +35,8 @@ void main()
 		}
 		else
 		{
-			printf("C is Min");	
+			printf("C is Min");
 		}
 	}
 }
+

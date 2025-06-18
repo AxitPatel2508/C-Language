@@ -1,4 +1,4 @@
-// 1.WAP to find a the answer given formula (x+y)2.
+//4.WAP to find a the answer given formula (x-y)3.
 
 #include<stdio.h>  //Standard input output header file.
 #include<conio.h>  //Console input output header file.
@@ -13,6 +13,6 @@ void main()
 	printf("Enter Y :"); // Input message for Y
 	scanf("%d",&y); //User input to y
 	
-	ans=x*x+2*x*y+y*y; //Calculate Ans
+	ans=(x*x*x)-(3*x*x*y)-(3*x*y*y)-(y*y*y); //Calculate Ans
 	printf("Ans is=%f",ans); //to print Ans
 }

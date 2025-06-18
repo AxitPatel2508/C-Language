@@ -1,7 +1,7 @@
 //wap to swap value of two variable (without using third variable).
 
-#include<stdio.h> //Standard input output header file
-#include<conio.h> //console input output header file
+#include<stdio.h>
+#include<conio.h>
 
 void main()
 {
